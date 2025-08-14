@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FiMail, FiPhone, FiMapPin, FiSend, FiCheck } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   // Form state
@@ -267,9 +268,9 @@ const Contact = () => {
             <p className="text-lg text-violet-100/70 mb-8">
               Check out our frequently asked questions for quick answers to common inquiries about our video editing services.
             </p>
-            <a href="/faq" className="btn-secondary inline-flex items-center gap-2">
+            <Link to="/faq" className="btn-secondary inline-flex items-center gap-2">
               View FAQ
-            </a>
+            </Link>
           </div>
         </div>
       </section>
