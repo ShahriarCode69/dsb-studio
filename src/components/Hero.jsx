@@ -18,7 +18,7 @@ const Hero = () => {
 
       <div className="container-custom relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-16 mt-20">
-          <SplitText />
+          <SplitText className=''/>
           <p className="text-lg md:text-xl text-neutral-100/80 mb-12 max-w-2xl mx-auto">
             Welcome to DSB Studios. Save time, boost engagement, and grow your audience with custom video editing tailored specifically for creators like you.
           </p>

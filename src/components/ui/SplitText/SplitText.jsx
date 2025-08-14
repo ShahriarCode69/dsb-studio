@@ -138,7 +138,12 @@ const SplitText = ({
   return (
     <h1
       ref={ref}
-      className={`split-parent overflow-hidden inline-block whitespace-normal text-[5rem] ${className} leading-22 heading-xl  mb-3 text-white`}
+      className={`split-parent overflow-hidden inline-block whitespace-normal 
+      text-4xl leading-10
+      sm:text-5xl sm:leading-14
+      md:text-6xl md:leading-16
+      lg:text-[5rem] lg:leading-22
+      ${className} font-bold mb-6 text-white`}
       style={{
         textAlign,
         wordWrap: "break-word",

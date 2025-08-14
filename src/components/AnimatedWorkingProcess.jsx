@@ -131,7 +131,7 @@ const AnimatedWorkingProcess = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Our Seamless Workflow
           </h2>
-          <p className="text-lg w-[60ch] text-purple-100/70">
+          <p className="text-lg mx-auto text-center text-purple-100/70 w-full md:w-[60ch]">
             From start to finish, we ensure your vision comes to life with unmatched precision, creativity, and efficiency.
           </p>
         </div>
