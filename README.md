@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Project Banner" width="100%" />
+  <img src="./assets/images/banner.webp" alt="Project Banner" width="100%" />
 </p>
 
 
-# 🚀 Project Name  
+# 🚀 Project - DSB Studio  
 
 A modern, dark-themed website built with **React, Tailwind CSS, GSAP animations, and Web3Forms**.  
-This project was created for a **video editing agency**, focusing on minimal design, smooth animations, and beautiful typography.  
+This project was created for a **video production agency**, focusing on minimal design, smooth animations, and beautiful typography.  
 
 ---
 
