@@ -21,45 +21,31 @@ This project was created for a **video production agency**, focusing on minimal 
   <img src="https://img.shields.io/badge/Web3Forms-121212?style=flat&logo=maildotru&logoColor=white" />
 </p>
 
-## 🎨 Colors  
+## 🎨 Colors
 
-| Color Name      | Hex       | Preview |
-|-----------------|-----------|---------|
-| Background      | `#0d0d0d` | <div style="width:20px; height:20px; background:#0d0d0d; border-radius:4px; border:1px solid #ccc;"></div> |
-| Secondary BG    | `#1c1c1c` | <div style="width:20px; height:20px; background:#1c1c1c; border-radius:4px; border:1px solid #ccc;"></div> |
-| Accent          | `#38B2AC` | <div style="width:20px; height:20px; background:#38B2AC; border-radius:4px; border:1px solid #ccc;"></div> |
-| Text Primary    | `#FFFFFF` | <div style="width:20px; height:20px; background:#FFFFFF; border-radius:4px; border:1px solid #ccc;"></div> |
-| Text Secondary  | `#A3A3A3` | <div style="width:20px; height:20px; background:#A3A3A3; border-radius:4px; border:1px solid #ccc;"></div> |
+| Color Name     | Hex       | Color                                                                 |
+|----------------|-----------|----------------------------------------------------------------------|
+| Background     | `#0d0d0d` | ![#000000](https://img.shields.io/badge/-000000?style=flat&labelColor=000000&color=000000) |
+| Secondary BG   | `#262626` | ![#262626](https://img.shields.io/badge/-262626?style=flat&labelColor=262626&color=262626) |
+| Accent         | `#7c3aed` | ![#7c3aed](https://img.shields.io/badge/-7c3aed?style=flat&labelColor=7c3aed&color=7c3aed) |
+| Text Primary   | `#FFFFFF` | ![#FFFFFF](https://img.shields.io/badge/-FFFFFF?style=flat&labelColor=FFFFFF&color=FFFFFF) |
+| Text Secondary | `#f5f5f5` | ![#f5f5f5](https://img.shields.io/badge/-f5f5f5?style=flat&labelColor=f5f5f5&color=f5f5f5) |
+
+
 
 
 ## 🖋️ Fonts  
 
 - **Outfit** (Main font)
 
----
-
-## 📸 Screenshots & GIFs  
-
-> Add your screenshots and preview gifs here  
-
-Example:  
-![Homepage Screenshot](./screenshots/home.png)  
-![Workflow Animation](./screenshots/workflow.gif)  
-
----
 
 ## 🔗 Links  
 
-- 🌍 **Live Website:** [Visit Website](https://yourwebsite.com)  
-- 🏢 **Agency:** [TechShabaka](https://techshabaka.com)  
-- 🤝 **Client Info:** [Video Editing Agency](https://client-website.com)  
-
----
+- 🌍 **Live Website:** [Visit Website](https://dsb-studio.vercel.app/)
 
 ## 👤 Author  
 
-**As Shahriar**  
-- 💼 Founder & CEO of [TechShabaka](https://techshabaka.com)  
+**As Shahriar**
 - 👨‍💻 Frontend Developer | React Enthusiast | Web Designer  
 - 🎥 [YouTube (shahriarcode)](https://youtube.com/@shahriarcode)  
 - 🌐 [Portfolio](https://shahriarcode.vercel.app)  
