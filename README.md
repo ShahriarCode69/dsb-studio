@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/images/banner.webp" alt="Project Banner" width="100%" />
+  <img src="/public/images/banner.webp" alt="Project Banner" width="100%" />
 </p>
 
 
