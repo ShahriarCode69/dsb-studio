@@ -38,8 +38,15 @@ const Disadvantages = () => {
           {badEditingCards.map((card, index) => (
             <div
               key={index}
-              className="card group hover:bg-neutral-800/30 hover:-translate-y-2"
+              className="card group hover:bg-neutral-800/30 hover:-translate-y-2 w-full h-full relative"
             >
+                {/* Violet Abyss */}
+                <div
+                  className="absolute inset-0 -z-10 rounded-2xl"
+                  style={{
+                    background: "radial-gradient(125% 125% at 50% 10%, #000000 40%, #7c3aed70 100%)",
+                  }}
+                />
               <div className="mb-6">{card.icon}</div>
               <h3 className="text-xl font-bold mb-3 text-white group-hover:text-violet-300 transition-colors">
                 {card.title}

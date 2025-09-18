@@ -84,7 +84,7 @@ body {
   }
 
   .card {
-    @apply bg-neutral-800/20 backdrop-blur-sm rounded-2xl p-6 border border-neutral-500/10 shadow-xl transition-all duration-300;
+    @apply bg-neutral-800/20 backdrop-blur-sm rounded-2xl p-6 border-2 border-neutral-500/10 shadow-xl transition-all duration-300;
   }
 }
 
