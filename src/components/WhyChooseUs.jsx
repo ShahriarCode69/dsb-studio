@@ -32,38 +32,44 @@ const WhyChooseUs = () => {
   ];
   return (
     <section className="py-20">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="heading-lg mb-6">Why Choose PixelPerfect</h2>
-              <p className="text-lg text-violet-100/70 mb-8">
-                We combine technical expertise with creative vision to deliver edits that exceed expectations.
-              </p>
-              
-              <div className="space-y-6">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex gap-4">
-                    <div className="flex-shrink-0 mt-1">{benefit.icon}</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
-                      <p className="text-violet-100/70">{benefit.description}</p>
-                    </div>
+      <div className="container-custom">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="heading-lg mb-6">Why Choose PixelPerfect</h2>
+            <p className="description max-w-md mb-8">
+              We combine technical expertise with creative vision to deliver edits that exceed expectations.
+            </p>
+
+            <div className="space-y-6">
+              {benefits.map((benefit, index) => (
+                <div key={index} className="flex gap-4">
+                  <div className="flex-shrink-0 mt-1">{benefit.icon}</div>
+                  <div>
+                    <h3 className="heading-sm mb-2">{benefit.title}</h3>
+                    <p className="description">{benefit.description}</p>
                   </div>
-                ))}
-              </div>
-            </div>
-            
-            <div className="grid grid-cols-2 gap-6">
-              {stats.map((stat, index) => (
-                <div key={index} className="card text-center hover:bg-neutral-800/30 hover:-translate-y-2">
-                  <div className="text-4xl font-bold text-violet-400 mb-2">{stat.value}</div>
-                  <p className="text-violet-100/70">{stat.label}</p>
                 </div>
               ))}
             </div>
           </div>
+
+          <div className="grid grid-cols-2 gap-6">
+            {stats.map((stat, index) => (
+              <div key={index} className="card text-center hover:bg-neutral-800/30 hover:-translate-y-2 relative">
+                <div
+                  className="absolute inset-0 -z-10 rounded-2xl"
+                  style={{
+                    background: "radial-gradient(125% 125% at 50% 10%, #000000 40%, #7c3aed70 100%)",
+                  }}
+                />
+                <div className="text-4xl font-bold text-violet-400 mb-2">{stat.value}</div>
+                <p className="text-violet-100/70">{stat.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
   )
 }
 
