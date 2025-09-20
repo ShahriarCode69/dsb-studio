@@ -10,10 +10,10 @@ const Testimonials = ({
     <section className="relative min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="heading-lg">
             {title}
           </h2>
-          <p className="text-lg text-violet-100/70 max-w-2xl mx-auto">
+          <p className="description max-w-xl mx-auto">
             {subtitle}
           </p>
         </div>

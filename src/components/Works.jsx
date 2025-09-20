@@ -78,8 +78,8 @@ const Works = () => {
     <section id="work" className="py-20 bg-black">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="heading-lg mb-6">Our Work</h2>
-          <p className="text-lg text-violet-100/70 mb-8">
+          <h2 className="heading-lg">Our Work</h2>
+          <p className="description mb-12 mx-auto">
             Browse our portfolio of stunning video edits across different industries and styles.
           </p>
           

@@ -60,11 +60,11 @@ body {
   }
 
   .heading-xl {
-    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+    @apply text-4xl md:text-6xl lg:text-7xl font-bold leading-tight md:leading-18 mb-4;
   }
 
   .heading-lg {
-    @apply text-3xl md:text-4xl font-bold leading-tight;
+    @apply text-3xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-18 mb-4;
   }
 
   .heading-md {
@@ -72,7 +72,11 @@ body {
   }
 
   .heading-sm {
-    @apply text-xl md:text-2xl font-bold leading-tight;
+    @apply text-xl md:text-2xl font-bold leading-tight mb-4;
+  }
+
+  .description {
+    @apply text-base max-w-[60ch] text-neutral-100/80;
   }
 
   .btn-primary {

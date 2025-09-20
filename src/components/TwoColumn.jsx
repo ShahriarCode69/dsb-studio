@@ -6,8 +6,8 @@ const TwoColumn = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="heading-lg mb-6">Stop Searching. We’ve got <br /> you covered.</h2>
-            <p className="text-lg text-violet-100/70 mb-8">
+            <h2 className="heading-lg">Stop Searching. We’ve got you covered.</h2>
+            <p className="description mb-8">
               Our expert editors transform ordinary footage into compelling visual stories that engage viewers and drive action.
             </p>
             <a href="#work" className="btn-primary inline-flex items-center gap-2">

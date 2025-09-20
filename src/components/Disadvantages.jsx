@@ -26,10 +26,10 @@ const Disadvantages = () => {
     <section className="py-20 bg-gradient-to-b from-transparent to-violet-950/10">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6">
+          <h2 className="heading-lg">
             Don’t Let Bad Editing <br /> Hold You Back
           </h2>
-          <p className="text-lg text-violet-100/70">
+          <p className="description mx-auto">
             Without Good Editing No One Will Pay Attention To Your Content. In This Era Of Fast Pace Videos, Your Content Will Stay Under The Rock If Your Dont Stand Out!
           </p>
         </div>
@@ -48,10 +48,10 @@ const Disadvantages = () => {
                   }}
                 />
               <div className="mb-6">{card.icon}</div>
-              <h3 className="text-xl font-bold mb-3 text-white group-hover:text-violet-300 transition-colors">
+              <h3 className="heading-sm group-hover:text-violet-300 transition-colors">
                 {card.title}
               </h3>
-              <p className="text-violet-100/70">{card.description}</p>
+              <p className="description">{card.description}</p>
             </div>
           ))}
         </div>
